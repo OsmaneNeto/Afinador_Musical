@@ -1,0 +1,111 @@
+/* App.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #282c34;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #a8ff78; /* Verde inspirado em luzes de afinador */
+}
+
+.start-button {
+    background-color: #a8ff78;
+    color: #1e1e1e;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.start-button:hover {
+    background-color: #7cfc00;
+    transform: scale(1.05);
+}
+
+.start-button:active {
+    transform: scale(1);
+}
+
+.microphone-tuner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.frequency-display {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #a8ff78;
+}
+
+.frequency-display strong {
+    font-size: 1.8rem;
+    color: #f8f8f2;
+}
+
+.microphone-tuner h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffec42; /* Amarelo brilhante para destacar a frequência */
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 236, 66, 0.6);
+}
+
+.microphone-tuner button {
+    font-size: 2rem;
+    padding: 10px 20px;
+    background-color: #ffec42;
+    border: none;
+    border-radius: 10px;
+    color: #1e1e1e;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.microphone-tuner button:hover {
+    background-color: #f8c42f;
+    transform: scale(1.05);
+}
+
+.microphone-tuner button:active {
+    transform: scale(1);
+}
+
+.error-message {
+    color: #ff5c5c;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Transições suaves para os elementos */
+.transition {
+    transition: all 0.3s ease-in-out;
+}
+
